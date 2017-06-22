@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+
+    <meta name="description" content="Kant's Blog">
+    <meta name="author" content="Kant">
+
+    <title>Kant's blog</title>
+
+    <link rel="icon" href="pic/Kant.jpg">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        body{
+            margin-top: 70px;
+        }
+        .blogcontent{
+            border-bottom: 2px dashed #eee;
+        }
+
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+
+        <!--Logo & header-->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed"
+                    data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Kant</a>
+        </div>
+
+        <!--Collapse-->
+        <div id="navbar" class="collapse navbar-collapse">
+
+            <!--navigator-->
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                       aria-haspopup="true" aria-expanded="false">
+                        Front-End
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="http://jquery.com/">JQuery</a></li>
+                        <li><a href="http://www.bootcss.com/">Bootstrap</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                       aria-haspopup="true" aria-expanded="false">
+                        Back-End
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                       aria-haspopup="true" aria-expanded="false">
+                        Courses
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="http://www.runoob.com/">菜鸟教程</a></li>
+                        <li><a href="http://www.imooc.com/">慕课网</a></li>
+                        <li><a href="http://www.w3school.com.cn/">W3school</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="http://www.icourse163.org/">中国大学MOOC网</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="https://www.coursera.org/">coursera</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <!--search form-->
+            <form class="navbar-form navbar-right">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="search">
+                </div>
+                <button type="submit" class="btn btn-default">Go</button>
+            </form>
+
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-9">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">JQuery Blog</h3>
+                </div>
+                <div class="panel-body">
+                    <div class="blogcontent">
+                        <h3>Title</h3>
+                        <p>some thing contents here</p>
+                    </div>
+                    <div class="blogcontent">
+                        <h3>Title</h3>
+                        <p>some thing contents here</p>
+                    </div>
+                    <div class="blogcontent">
+                        <h3>Title</h3>
+                        <p>some thing contents here</p>
+                    </div>
+                    <div class="blogcontent">
+                        <h3>Title</h3>
+                        <p>some thing contents here</p>
+                    </div>
+                    <nav aria-label="Page navigation">
+                        <ul class="pagination center-block">
+                            <li>
+                                <a href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li>
+                                <a href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+            </div>
+        </div><!--col-xs-12 col-sm-9-->
+
+        <div class="col-xs-6 col-sm-3">
+            <div class="list-group">
+                <a href="#" class="list-group-item">岁月神偷</a>
+                <a href="#" class="list-group-item">Important2</a>
+            </div>
+            <iframe id="fav1" frameborder="no" border="0" marginwidth="0" marginheight="0" width=270 height=86 src="//music.163.com/outchain/player?type=2&id=28285910&auto=1&height=66"></iframe>
+        </div><!--col-xs-6 col-sm-3-->
+
+    </div><!--row-->
+</div><!--container-->
+
+<footer>
+    <div class="container">
+        <p class="text-center">&copy; Kant 2017</p>
+    </div>
+</footer>
+
+<script src="js/JQuery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+    function play() {
+        this.onclick()
+            .$("#fav1").click();
+
+    }
+</script>
+</body>
+</html>
