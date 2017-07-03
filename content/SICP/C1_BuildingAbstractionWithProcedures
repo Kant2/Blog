@@ -1,1 +1,29 @@
-Sth
+program -> (computaional)process -> data
+The usage of Process just like socerer's spell, we use it to influent the nature.
+  must working precisely and accurately(like socerer's apprentice).
+  is less dangerous than sorcery, but can also cause catastrophic.
+  Master engineer & Well designed computational system.
+  
+Programming in Lisp:
+  Apropriate for describe Process.-Procedure thought
+  Some introductions of Lisp, we use Scheme
+  more efficient than before, But still inefficient(can use in efficiency is not the central concern).
+  Feature: handing procedures as data
+
+1.Elements:
+  primitive language: simplest item the language concerned with.
+  means of combination: compound elements.
+  means of abstraction: named and built as unit.
+  procedures -(combine & abstract)-> data
+  
+  (Primitive) Expression:12
+    Compound expression: (+(primitive procedure/Operator) 12(Operands/Arguments) 32) -> Combination
+    Prefix notation: 1.accommodate arbitrary arguments
+      2.nested combination more straightforward.
+    Pretty-printing
+    read-eval-print Loop
+  Naming & the Environment:
+    
+(The English edition is too difficult to read, I give up...)
+  
+  
